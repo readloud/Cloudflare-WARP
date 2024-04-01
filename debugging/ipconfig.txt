@@ -1,0 +1,53 @@
+
+====
+==== Command { std: "ipconfig" "-all", kill_on_drop: false }
+====
+
+stdout
+------
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : HBCDPX64
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Qualcomm Atheros AR8152 PCI-E Fast Ethernet Controller (NDIS 6.30)
+   Physical Address. . . . . . . . . : BC-AE-C5-1C-47-36
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Qualcomm Atheros AR9285 Wireless Network Adapter
+   Physical Address. . . . . . . . . : 48-5D-60-75-82-A9
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 1A-5D-60-75-82-A9
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+
+stderr
+------
+
+
+exit status
+-----------
+Exited with status code: 0
+
+

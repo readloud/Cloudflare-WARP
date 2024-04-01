@@ -1,0 +1,18 @@
+
+====
+==== Command { std: "powershell" "-command" "Format-Table" "-Property" "ifIndex, DestinationPrefix, NextHop, RouteMetric, ifMetric, InterfaceAlias, State" "-InputObject" "(Get-NetRoute | Sort-Object)", kill_on_drop: false }
+====
+
+stdout
+------
+
+
+stderr
+------
+Command failed with error: program not found
+
+exit status
+-----------
+Exited with status code: 1
+
+

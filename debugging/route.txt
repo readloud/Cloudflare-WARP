@@ -1,0 +1,115 @@
+
+====================================================================
+Route to Cloudflare DNS (1.1.1.1)
+====================================================================
+
+====
+==== Command { std: "powershell" "-command" "Find-NetRoute" "-RemoteIPAddress" "1.1.1.1", kill_on_drop: false }
+====
+
+stdout
+------
+
+
+stderr
+------
+Command failed with error: program not found
+
+exit status
+-----------
+Exited with status code: 1
+
+
+
+
+====================================================================
+Route to Gateway DNS (162.159.36.1)
+====================================================================
+
+====
+==== Command { std: "powershell" "-command" "Find-NetRoute" "-RemoteIPAddress" "162.159.36.1", kill_on_drop: false }
+====
+
+stdout
+------
+
+
+stderr
+------
+Command failed with error: program not found
+
+exit status
+-----------
+Exited with status code: 1
+
+
+
+
+====================================================================
+Route to Gateway DNS (2606:4700:4700::1111)
+====================================================================
+
+====
+==== Command { std: "powershell" "-command" "Find-NetRoute" "-RemoteIPAddress" "2606:4700:4700::1111", kill_on_drop: false }
+====
+
+stdout
+------
+
+
+stderr
+------
+Command failed with error: program not found
+
+exit status
+-----------
+Exited with status code: 1
+
+
+
+
+====================================================================
+Route to API IP (162.159.192.1)
+====================================================================
+
+====
+==== Command { std: "powershell" "-command" "Find-NetRoute" "-RemoteIPAddress" "162.159.192.1", kill_on_drop: false }
+====
+
+stdout
+------
+
+
+stderr
+------
+Command failed with error: program not found
+
+exit status
+-----------
+Exited with status code: 1
+
+
+
+
+====================================================================
+Route to API IP (2606:4700:d0::a29f:c001)
+====================================================================
+
+====
+==== Command { std: "powershell" "-command" "Find-NetRoute" "-RemoteIPAddress" "2606:4700:d0::a29f:c001", kill_on_drop: false }
+====
+
+stdout
+------
+
+
+stderr
+------
+Command failed with error: program not found
+
+exit status
+-----------
+Exited with status code: 1
+
+
+

@@ -1,0 +1,60 @@
+{
+  "global_cpu_info": {
+    "cpu_usage": 65.89038,
+    "name": "Total CPU",
+    "vendor_id": "",
+    "brand": "",
+    "frequency": 0
+  },
+  "cpus": [
+    {
+      "cpu_usage": 54.038868,
+      "name": "CPU 1",
+      "vendor_id": "GenuineIntel",
+      "brand": "         Intel(R) Atom(TM) CPU N550   @ 1.50GHz",
+      "frequency": 1500
+    },
+    {
+      "cpu_usage": 92.86762,
+      "name": "CPU 2",
+      "vendor_id": "GenuineIntel",
+      "brand": "         Intel(R) Atom(TM) CPU N550   @ 1.50GHz",
+      "frequency": 1500
+    },
+    {
+      "cpu_usage": 60.327793,
+      "name": "CPU 3",
+      "vendor_id": "GenuineIntel",
+      "brand": "         Intel(R) Atom(TM) CPU N550   @ 1.50GHz",
+      "frequency": 1500
+    },
+    {
+      "cpu_usage": 56.327293,
+      "name": "CPU 4",
+      "vendor_id": "GenuineIntel",
+      "brand": "         Intel(R) Atom(TM) CPU N550   @ 1.50GHz",
+      "frequency": 1500
+    }
+  ],
+  "physical_core_count": 2,
+  "total_memory": 2137116672,
+  "free_memory": 989642752,
+  "available_memory": 989642752,
+  "used_memory": 1147473920,
+  "total_swap": 1207959552,
+  "free_swap": 1207959552,
+  "used_swap": 0,
+  "uptime": 152,
+  "boot_time": 1710895074,
+  "load_average": {
+    "one": 0.0,
+    "five": 0.0,
+    "fifteen": 0.0
+  },
+  "name": "Windows",
+  "kernel_version": "18363",
+  "os_version": "10 (18363)",
+  "long_os_version": "Windows 10 Pro",
+  "distribution_id": "windows",
+  "host_name": "HBCDPX64"
+}

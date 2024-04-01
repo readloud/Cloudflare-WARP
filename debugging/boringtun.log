@@ -1,0 +1,880 @@
+2024-03-19T07:19:08.530Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:19:08.550Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:19:10.092Z DEBUG boringtun::noise: Received handshake_response local_idx=15862785 remote_idx=12874496
+2024-03-19T07:19:10.095Z DEBUG boringtun::noise: New session session=15862785 index=61964
+2024-03-19T07:19:10.095Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:19:43.493Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:42:09.542Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:42:09.593Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:42:09.890Z DEBUG boringtun::noise: Received handshake_response local_idx=13080577 remote_idx=16194304
+2024-03-19T07:42:09.894Z DEBUG boringtun::noise: New session session=13080577 index=51096
+2024-03-19T07:42:09.894Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:42:33.702Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:42:57.841Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:43:21.931Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:43:46.144Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:44:09.635Z DEBUG boringtun::noise::timers: HANDSHAKE(REKEY_AFTER_TIME (on send))
+2024-03-19T07:44:09.638Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:44:09.704Z DEBUG boringtun::noise: Received handshake_response local_idx=13080578 remote_idx=16194305
+2024-03-19T07:44:09.708Z DEBUG boringtun::noise: New session session=13080578 index=51096
+2024-03-19T07:44:09.708Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:44:10.238Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:44:34.280Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:44:42.322Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:44:42.324Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:44:42.393Z DEBUG boringtun::noise: Received handshake_response local_idx=13080579 remote_idx=16194306
+2024-03-19T07:44:42.395Z DEBUG boringtun::noise: New session session=13080579 index=51096
+2024-03-19T07:44:42.396Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:44:57.554Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:44:57.556Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:44:57.631Z DEBUG boringtun::noise: Received handshake_response local_idx=13080580 remote_idx=16194307
+2024-03-19T07:44:57.634Z DEBUG boringtun::noise: New session session=13080580 index=51096
+2024-03-19T07:44:57.634Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:44:58.492Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:45:09.642Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=13080577 index=51096
+2024-03-19T07:45:12.751Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:45:12.753Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:45:12.823Z DEBUG boringtun::noise: Received handshake_response local_idx=13080581 remote_idx=16194308
+2024-03-19T07:45:12.826Z DEBUG boringtun::noise: New session session=13080581 index=51096
+2024-03-19T07:45:12.826Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:45:22.697Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:45:32.014Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:45:32.016Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:45:32.083Z DEBUG boringtun::noise: Received handshake_response local_idx=13080582 remote_idx=16194309
+2024-03-19T07:45:32.086Z DEBUG boringtun::noise: New session session=13080582 index=51096
+2024-03-19T07:45:32.086Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:45:46.952Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:45:47.264Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:45:47.267Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:45:47.340Z DEBUG boringtun::noise: Received handshake_response local_idx=13080583 remote_idx=16194310
+2024-03-19T07:45:47.343Z DEBUG boringtun::noise: New session session=13080583 index=51096
+2024-03-19T07:45:47.343Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:46:02.563Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:46:02.566Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:46:02.624Z DEBUG boringtun::noise: Received handshake_response local_idx=13080584 remote_idx=16194311
+2024-03-19T07:46:02.628Z DEBUG boringtun::noise: New session session=13080584 index=51096
+2024-03-19T07:46:02.628Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:46:10.956Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:46:32.134Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:46:32.136Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:46:32.199Z DEBUG boringtun::noise: Received handshake_response local_idx=13080585 remote_idx=16194312
+2024-03-19T07:46:32.202Z DEBUG boringtun::noise: New session session=13080585 index=51096
+2024-03-19T07:46:32.202Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:46:35.261Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:46:47.430Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:46:47.432Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:46:47.507Z DEBUG boringtun::noise: Received handshake_response local_idx=13080586 remote_idx=16194313
+2024-03-19T07:46:47.511Z DEBUG boringtun::noise: New session session=13080586 index=51096
+2024-03-19T07:46:47.511Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:46:59.535Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:47:02.645Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:47:02.646Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:47:02.709Z DEBUG boringtun::noise: Received handshake_response local_idx=13080587 remote_idx=16194314
+2024-03-19T07:47:02.712Z DEBUG boringtun::noise: New session session=13080587 index=51096
+2024-03-19T07:47:02.712Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:47:17.892Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:47:17.895Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:47:17.954Z DEBUG boringtun::noise: Received handshake_response local_idx=13080588 remote_idx=16194315
+2024-03-19T07:47:17.959Z DEBUG boringtun::noise: New session session=13080588 index=51096
+2024-03-19T07:47:17.959Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:47:23.814Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:47:33.148Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:47:33.150Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:47:33.231Z DEBUG boringtun::noise: Received handshake_response local_idx=13080589 remote_idx=16194316
+2024-03-19T07:47:33.235Z DEBUG boringtun::noise: New session session=13080589 index=51096
+2024-03-19T07:47:33.235Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:47:48.054Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:47:48.367Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:47:48.370Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:47:48.428Z DEBUG boringtun::noise: Received handshake_response local_idx=13080590 remote_idx=16194317
+2024-03-19T07:47:48.433Z DEBUG boringtun::noise: New session session=13080590 index=51096
+2024-03-19T07:47:48.433Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:48:03.591Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:48:03.593Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:48:03.658Z DEBUG boringtun::noise: Received handshake_response local_idx=13080591 remote_idx=16194318
+2024-03-19T07:48:03.662Z DEBUG boringtun::noise: New session session=13080591 index=51096
+2024-03-19T07:48:03.663Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:48:12.294Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:48:18.841Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:48:18.843Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:48:18.915Z DEBUG boringtun::noise: Received handshake_response local_idx=13080592 remote_idx=16194319
+2024-03-19T07:48:18.918Z DEBUG boringtun::noise: New session session=13080592 index=51096
+2024-03-19T07:48:18.919Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:48:34.091Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:48:34.094Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:48:34.182Z DEBUG boringtun::noise: Received handshake_response local_idx=13080593 remote_idx=16194320
+2024-03-19T07:48:34.186Z DEBUG boringtun::noise: New session session=13080593 index=51096
+2024-03-19T07:48:34.186Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:48:36.573Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:48:49.133Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:48:49.139Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:48:49.221Z DEBUG boringtun::noise: Received handshake_response local_idx=13080594 remote_idx=16194321
+2024-03-19T07:48:49.224Z DEBUG boringtun::noise: New session session=13080594 index=51096
+2024-03-19T07:48:49.224Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:49:00.579Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:49:04.307Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:49:04.309Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:49:04.386Z DEBUG boringtun::noise: Received handshake_response local_idx=13080595 remote_idx=16194322
+2024-03-19T07:49:04.390Z DEBUG boringtun::noise: New session session=13080595 index=51096
+2024-03-19T07:49:04.390Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:49:19.316Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:49:19.319Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:49:19.404Z DEBUG boringtun::noise: Received handshake_response local_idx=13080596 remote_idx=16194323
+2024-03-19T07:49:19.408Z DEBUG boringtun::noise: New session session=13080596 index=51096
+2024-03-19T07:49:19.408Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:49:24.613Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:49:34.599Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:49:34.601Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:49:34.733Z DEBUG boringtun::noise: Received handshake_response local_idx=13080597 remote_idx=16194324
+2024-03-19T07:49:34.736Z DEBUG boringtun::noise: New session session=13080597 index=51096
+2024-03-19T07:49:34.736Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:49:48.619Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:49:49.892Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:49:49.894Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:49:49.956Z DEBUG boringtun::noise: Received handshake_response local_idx=13080598 remote_idx=16194325
+2024-03-19T07:49:49.959Z DEBUG boringtun::noise: New session session=13080598 index=51096
+2024-03-19T07:49:49.959Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:50:05.183Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:50:05.184Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:50:05.265Z DEBUG boringtun::noise: Received handshake_response local_idx=13080599 remote_idx=16194326
+2024-03-19T07:50:05.268Z DEBUG boringtun::noise: New session session=13080599 index=51096
+2024-03-19T07:50:05.268Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:50:12.631Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:50:20.418Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:50:20.420Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:50:20.492Z DEBUG boringtun::noise: Received handshake_response local_idx=13080600 remote_idx=16194327
+2024-03-19T07:50:20.495Z DEBUG boringtun::noise: New session session=13080600 index=51096
+2024-03-19T07:50:20.495Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:50:35.722Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:50:35.725Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:50:35.783Z DEBUG boringtun::noise: Received handshake_response local_idx=13080601 remote_idx=16194328
+2024-03-19T07:50:35.787Z DEBUG boringtun::noise: New session session=13080601 index=51096
+2024-03-19T07:50:35.787Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:50:36.660Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:50:51.010Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:50:51.012Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:50:51.069Z DEBUG boringtun::noise: Received handshake_response local_idx=13080602 remote_idx=16194329
+2024-03-19T07:50:51.072Z DEBUG boringtun::noise: New session session=13080602 index=51096
+2024-03-19T07:50:51.072Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:51:00.674Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:51:06.284Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:51:06.287Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:51:06.354Z DEBUG boringtun::noise: Received handshake_response local_idx=13080603 remote_idx=16194330
+2024-03-19T07:51:06.357Z DEBUG boringtun::noise: New session session=13080603 index=51096
+2024-03-19T07:51:06.357Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:51:21.554Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:51:21.557Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:51:21.644Z DEBUG boringtun::noise: Received handshake_response local_idx=13080604 remote_idx=16194331
+2024-03-19T07:51:21.647Z DEBUG boringtun::noise: New session session=13080604 index=51096
+2024-03-19T07:51:21.648Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:51:24.961Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:51:36.792Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:51:36.794Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:51:36.856Z DEBUG boringtun::noise: Received handshake_response local_idx=13080605 remote_idx=16194332
+2024-03-19T07:51:36.860Z DEBUG boringtun::noise: New session session=13080605 index=51096
+2024-03-19T07:51:36.860Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:51:49.272Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:51:52.057Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:51:52.060Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:51:52.121Z DEBUG boringtun::noise: Received handshake_response local_idx=13080606 remote_idx=16194333
+2024-03-19T07:51:52.124Z DEBUG boringtun::noise: New session session=13080606 index=51096
+2024-03-19T07:51:52.125Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:52:07.330Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:52:07.332Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:52:07.415Z DEBUG boringtun::noise: Received handshake_response local_idx=13080607 remote_idx=16194334
+2024-03-19T07:52:07.420Z DEBUG boringtun::noise: New session session=13080607 index=51096
+2024-03-19T07:52:07.420Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:52:13.557Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:52:22.609Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:52:22.611Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:52:22.670Z DEBUG boringtun::noise: Received handshake_response local_idx=13080608 remote_idx=16194335
+2024-03-19T07:52:22.674Z DEBUG boringtun::noise: New session session=13080608 index=51096
+2024-03-19T07:52:22.674Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:52:37.572Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:52:37.884Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:52:37.886Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:52:37.952Z DEBUG boringtun::noise: Received handshake_response local_idx=13080609 remote_idx=16194336
+2024-03-19T07:52:37.955Z DEBUG boringtun::noise: New session session=13080609 index=51096
+2024-03-19T07:52:37.956Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:52:53.084Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:52:53.086Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:52:53.140Z DEBUG boringtun::noise: Received handshake_response local_idx=13080610 remote_idx=16194337
+2024-03-19T07:52:53.145Z DEBUG boringtun::noise: New session session=13080610 index=51096
+2024-03-19T07:52:53.145Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:53:01.810Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:53:08.345Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:53:08.347Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:53:08.426Z DEBUG boringtun::noise: Received handshake_response local_idx=13080611 remote_idx=16194338
+2024-03-19T07:53:08.429Z DEBUG boringtun::noise: New session session=13080611 index=51096
+2024-03-19T07:53:08.429Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:53:23.657Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:53:23.659Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:53:23.734Z DEBUG boringtun::noise: Received handshake_response local_idx=13080612 remote_idx=16194339
+2024-03-19T07:53:23.738Z DEBUG boringtun::noise: New session session=13080612 index=51096
+2024-03-19T07:53:23.738Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:53:25.834Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:53:38.929Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:53:38.931Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:53:38.993Z DEBUG boringtun::noise: Received handshake_response local_idx=13080613 remote_idx=16194340
+2024-03-19T07:53:38.997Z DEBUG boringtun::noise: New session session=13080613 index=51096
+2024-03-19T07:53:38.997Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:53:50.132Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:53:54.171Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:53:54.174Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:53:54.251Z DEBUG boringtun::noise: Received handshake_response local_idx=13080614 remote_idx=16194341
+2024-03-19T07:53:54.254Z DEBUG boringtun::noise: New session session=13080614 index=51096
+2024-03-19T07:53:54.255Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:54:09.483Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:54:09.486Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:54:09.549Z DEBUG boringtun::noise: Received handshake_response local_idx=13080615 remote_idx=16194342
+2024-03-19T07:54:09.552Z DEBUG boringtun::noise: New session session=13080615 index=51096
+2024-03-19T07:54:09.553Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:54:14.171Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:54:24.746Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:54:24.749Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:54:24.824Z DEBUG boringtun::noise: Received handshake_response local_idx=13080616 remote_idx=16194343
+2024-03-19T07:54:24.828Z DEBUG boringtun::noise: New session session=13080616 index=51096
+2024-03-19T07:54:24.828Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:54:38.455Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:54:40.016Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:54:40.018Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:54:40.075Z DEBUG boringtun::noise: Received handshake_response local_idx=13080617 remote_idx=16194344
+2024-03-19T07:54:40.078Z DEBUG boringtun::noise: New session session=13080617 index=51096
+2024-03-19T07:54:40.078Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:54:55.308Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:54:55.310Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:54:55.377Z DEBUG boringtun::noise: Received handshake_response local_idx=13080618 remote_idx=16194345
+2024-03-19T07:54:55.380Z DEBUG boringtun::noise: New session session=13080618 index=51096
+2024-03-19T07:54:55.380Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:55:02.490Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:55:10.615Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:55:10.618Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:55:10.693Z DEBUG boringtun::noise: Received handshake_response local_idx=13080619 remote_idx=16194346
+2024-03-19T07:55:10.696Z DEBUG boringtun::noise: New session session=13080619 index=51096
+2024-03-19T07:55:10.696Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:55:25.906Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:55:25.908Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:55:25.981Z DEBUG boringtun::noise: Received handshake_response local_idx=13080620 remote_idx=16194347
+2024-03-19T07:55:25.984Z DEBUG boringtun::noise: New session session=13080620 index=51096
+2024-03-19T07:55:25.985Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:55:26.531Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:55:40.906Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:55:40.908Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:55:40.976Z DEBUG boringtun::noise: Received handshake_response local_idx=13080621 remote_idx=16194348
+2024-03-19T07:55:40.980Z DEBUG boringtun::noise: New session session=13080621 index=51096
+2024-03-19T07:55:40.980Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:55:50.839Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:55:56.151Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:55:56.154Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:55:56.232Z DEBUG boringtun::noise: Received handshake_response local_idx=13080622 remote_idx=16194349
+2024-03-19T07:55:56.236Z DEBUG boringtun::noise: New session session=13080622 index=51096
+2024-03-19T07:55:56.236Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:56:11.157Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:56:11.160Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:56:11.230Z DEBUG boringtun::noise: Received handshake_response local_idx=13080623 remote_idx=16194350
+2024-03-19T07:56:11.235Z DEBUG boringtun::noise: New session session=13080623 index=51096
+2024-03-19T07:56:11.235Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:56:14.907Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:56:26.456Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:56:26.459Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:56:26.532Z DEBUG boringtun::noise: Received handshake_response local_idx=13080624 remote_idx=16194351
+2024-03-19T07:56:26.536Z DEBUG boringtun::noise: New session session=13080624 index=51096
+2024-03-19T07:56:26.536Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:56:38.937Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:56:41.705Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:56:41.707Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:56:41.784Z DEBUG boringtun::noise: Received handshake_response local_idx=13080625 remote_idx=16194352
+2024-03-19T07:56:41.787Z DEBUG boringtun::noise: New session session=13080625 index=51096
+2024-03-19T07:56:41.787Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:56:56.999Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:56:57.001Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:56:57.078Z DEBUG boringtun::noise: Received handshake_response local_idx=13080626 remote_idx=16194353
+2024-03-19T07:56:57.082Z DEBUG boringtun::noise: New session session=13080626 index=51096
+2024-03-19T07:56:57.082Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:57:03.242Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:57:12.262Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:57:12.264Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:57:12.380Z DEBUG boringtun::noise: Received handshake_response local_idx=13080627 remote_idx=16194354
+2024-03-19T07:57:12.384Z DEBUG boringtun::noise: New session session=13080627 index=51096
+2024-03-19T07:57:12.384Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:57:27.552Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:57:27.555Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:57:27.630Z DEBUG boringtun::noise: Received handshake_response local_idx=13080628 remote_idx=16194355
+2024-03-19T07:57:27.634Z DEBUG boringtun::noise: New session session=13080628 index=51096
+2024-03-19T07:57:27.635Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:57:27.865Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:57:42.554Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T07:57:42.557Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:57:42.626Z DEBUG boringtun::noise: Received handshake_response local_idx=13080629 remote_idx=16194356
+2024-03-19T07:57:42.630Z DEBUG boringtun::noise: New session session=13080629 index=51096
+2024-03-19T07:57:42.630Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:57:52.154Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:58:16.340Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:58:40.416Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:58:56.159Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=13080622 index=51096
+2024-03-19T07:59:04.590Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:59:11.238Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=13080623 index=51096
+2024-03-19T07:59:26.652Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=13080624 index=51096
+2024-03-19T07:59:28.767Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:59:41.968Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=13080625 index=51096
+2024-03-19T07:59:42.570Z DEBUG boringtun::noise::timers: HANDSHAKE(REKEY_AFTER_TIME (on send))
+2024-03-19T07:59:42.572Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T07:59:42.648Z DEBUG boringtun::noise: Received handshake_response local_idx=13080630 remote_idx=16194357
+2024-03-19T07:59:42.652Z DEBUG boringtun::noise: New session session=13080630 index=51096
+2024-03-19T07:59:42.652Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T07:59:52.921Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T07:59:57.167Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=13080626 index=51096
+2024-03-19T08:00:12.319Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=13080627 index=51096
+2024-03-19T08:00:17.041Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:00:27.691Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=13080628 index=51096
+2024-03-19T08:00:41.117Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:00:42.623Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=13080629 index=51096
+2024-03-19T08:01:05.200Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:01:29.488Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:01:42.638Z DEBUG boringtun::noise::timers: HANDSHAKE(REKEY_AFTER_TIME (on send))
+2024-03-19T08:01:42.641Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:01:42.703Z DEBUG boringtun::noise: Received handshake_response local_idx=13080631 remote_idx=16194358
+2024-03-19T08:01:42.710Z DEBUG boringtun::noise: New session session=13080631 index=51096
+2024-03-19T08:01:42.710Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:01:53.546Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:02:17.678Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:02:41.207Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:02:41.210Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:02:41.282Z DEBUG boringtun::noise: Received handshake_response local_idx=13080632 remote_idx=16194359
+2024-03-19T08:02:41.296Z DEBUG boringtun::noise: New session session=13080632 index=51096
+2024-03-19T08:02:41.296Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:02:41.832Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:02:42.769Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=13080630 index=51096
+2024-03-19T08:02:56.504Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:02:56.507Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:02:56.580Z DEBUG boringtun::noise: Received handshake_response local_idx=13080633 remote_idx=16194360
+2024-03-19T08:02:56.584Z DEBUG boringtun::noise: New session session=13080633 index=51096
+2024-03-19T08:02:56.584Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:03:05.879Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:03:11.535Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:03:11.537Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:03:11.624Z DEBUG boringtun::noise: Received handshake_response local_idx=13080634 remote_idx=16194361
+2024-03-19T08:03:11.627Z DEBUG boringtun::noise: New session session=13080634 index=51096
+2024-03-19T08:03:11.628Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:03:26.832Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:03:26.835Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:03:26.912Z DEBUG boringtun::noise: Received handshake_response local_idx=13080635 remote_idx=16194362
+2024-03-19T08:03:26.915Z DEBUG boringtun::noise: New session session=13080635 index=51096
+2024-03-19T08:03:26.915Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:03:29.958Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:03:42.144Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:03:42.146Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:03:42.214Z DEBUG boringtun::noise: Received handshake_response local_idx=13080636 remote_idx=16194363
+2024-03-19T08:03:42.218Z DEBUG boringtun::noise: New session session=13080636 index=51096
+2024-03-19T08:03:42.218Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:03:54.019Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:03:57.145Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:03:57.147Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:03:57.211Z DEBUG boringtun::noise: Received handshake_response local_idx=13080637 remote_idx=16194364
+2024-03-19T08:03:57.213Z DEBUG boringtun::noise: New session session=13080637 index=51096
+2024-03-19T08:03:57.214Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:04:12.441Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:04:12.443Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:04:12.527Z DEBUG boringtun::noise: Received handshake_response local_idx=13080638 remote_idx=16194365
+2024-03-19T08:04:12.529Z DEBUG boringtun::noise: New session session=13080638 index=51096
+2024-03-19T08:04:12.529Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:04:18.066Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:04:27.566Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:04:27.569Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:04:27.645Z DEBUG boringtun::noise: Received handshake_response local_idx=13080639 remote_idx=16194366
+2024-03-19T08:04:27.649Z DEBUG boringtun::noise: New session session=13080639 index=51096
+2024-03-19T08:04:27.649Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:04:42.269Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:04:42.582Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:04:42.584Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:04:42.649Z DEBUG boringtun::noise: Received handshake_response local_idx=13080640 remote_idx=16194367
+2024-03-19T08:04:42.652Z DEBUG boringtun::noise: New session session=13080640 index=51096
+2024-03-19T08:04:42.652Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:04:57.582Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:04:57.585Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:04:57.662Z DEBUG boringtun::noise: Received handshake_response local_idx=13080641 remote_idx=16194368
+2024-03-19T08:04:57.666Z DEBUG boringtun::noise: New session session=13080641 index=51096
+2024-03-19T08:04:57.666Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:05:06.301Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:05:12.863Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:05:12.865Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:05:12.933Z DEBUG boringtun::noise: Received handshake_response local_idx=13080642 remote_idx=16194369
+2024-03-19T08:05:12.936Z DEBUG boringtun::noise: New session session=13080642 index=51096
+2024-03-19T08:05:12.936Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:05:28.176Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:05:28.178Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:05:28.264Z DEBUG boringtun::noise: Received handshake_response local_idx=13080643 remote_idx=16194370
+2024-03-19T08:05:28.268Z DEBUG boringtun::noise: New session session=13080643 index=51096
+2024-03-19T08:05:28.268Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:05:30.363Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:05:43.488Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:05:43.492Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:05:48.801Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:05:48.803Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:05:48.897Z DEBUG boringtun::noise: Received handshake_response local_idx=13080645 remote_idx=16194371
+2024-03-19T08:05:48.901Z DEBUG boringtun::noise: New session session=13080645 index=51096
+2024-03-19T08:05:48.901Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:05:54.426Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:06:03.801Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:06:03.803Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:06:03.901Z DEBUG boringtun::noise: Received handshake_response local_idx=13080646 remote_idx=16194372
+2024-03-19T08:06:03.904Z DEBUG boringtun::noise: New session session=13080646 index=51096
+2024-03-19T08:06:03.904Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:06:18.519Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:06:18.832Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:06:18.835Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:06:18.924Z DEBUG boringtun::noise: Received handshake_response local_idx=13080647 remote_idx=16194373
+2024-03-19T08:06:18.928Z DEBUG boringtun::noise: New session session=13080647 index=51096
+2024-03-19T08:06:18.928Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:06:34.145Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:06:34.146Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:06:34.219Z DEBUG boringtun::noise: Received handshake_response local_idx=13080648 remote_idx=16194374
+2024-03-19T08:06:34.223Z DEBUG boringtun::noise: New session session=13080648 index=51096
+2024-03-19T08:06:34.223Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:06:46.160Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:06:46.226Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:06:46.549Z DEBUG boringtun::noise: Received handshake_response local_idx=16484609 remote_idx=11531264
+2024-03-19T08:06:46.552Z DEBUG boringtun::noise: New session session=16484609 index=64393
+2024-03-19T08:06:46.552Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:07:10.363Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:07:12.551Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:07:12.553Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:07:12.648Z DEBUG boringtun::noise: Received handshake_response local_idx=16484610 remote_idx=11531265
+2024-03-19T08:07:12.653Z DEBUG boringtun::noise: New session session=16484610 index=64393
+2024-03-19T08:07:12.653Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:07:27.551Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:07:27.554Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:07:27.621Z DEBUG boringtun::noise: Received handshake_response local_idx=16484611 remote_idx=11531266
+2024-03-19T08:07:27.625Z DEBUG boringtun::noise: New session session=16484611 index=64393
+2024-03-19T08:07:27.625Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:07:34.426Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:07:42.551Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:07:42.553Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:07:42.621Z DEBUG boringtun::noise: Received handshake_response local_idx=16484612 remote_idx=11531267
+2024-03-19T08:07:42.625Z DEBUG boringtun::noise: New session session=16484612 index=64393
+2024-03-19T08:07:42.625Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:07:57.863Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:07:57.866Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:07:57.939Z DEBUG boringtun::noise: Received handshake_response local_idx=16484613 remote_idx=11531268
+2024-03-19T08:07:57.943Z DEBUG boringtun::noise: New session session=16484613 index=64393
+2024-03-19T08:07:57.943Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:07:58.488Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:08:22.551Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:08:27.239Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:08:27.241Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:08:27.323Z DEBUG boringtun::noise: Received handshake_response local_idx=16484614 remote_idx=11531269
+2024-03-19T08:08:27.326Z DEBUG boringtun::noise: New session session=16484614 index=64393
+2024-03-19T08:08:27.326Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:08:42.535Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:08:42.538Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:08:42.616Z DEBUG boringtun::noise: Received handshake_response local_idx=16484615 remote_idx=11531270
+2024-03-19T08:08:42.618Z DEBUG boringtun::noise: New session session=16484615 index=64393
+2024-03-19T08:08:42.619Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:08:46.598Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:08:57.535Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:08:57.538Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:08:57.611Z DEBUG boringtun::noise: Received handshake_response local_idx=16484616 remote_idx=11531271
+2024-03-19T08:08:57.616Z DEBUG boringtun::noise: New session session=16484616 index=64393
+2024-03-19T08:08:57.616Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:09:10.645Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:09:12.832Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:09:12.834Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:09:12.927Z DEBUG boringtun::noise: Received handshake_response local_idx=16484617 remote_idx=11531272
+2024-03-19T08:09:12.949Z DEBUG boringtun::noise: New session session=16484617 index=64393
+2024-03-19T08:09:12.949Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:09:28.145Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:09:28.148Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:09:28.221Z DEBUG boringtun::noise: Received handshake_response local_idx=16484618 remote_idx=11531273
+2024-03-19T08:09:28.225Z DEBUG boringtun::noise: New session session=16484618 index=64393
+2024-03-19T08:09:28.225Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:09:34.707Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:09:55.644Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:09:55.647Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:09:55.723Z DEBUG boringtun::noise: Received handshake_response local_idx=16484619 remote_idx=11531274
+2024-03-19T08:09:55.726Z DEBUG boringtun::noise: New session session=16484619 index=64393
+2024-03-19T08:09:55.727Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:09:58.770Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:10:10.941Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:10:10.944Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:10:11.012Z DEBUG boringtun::noise: Received handshake_response local_idx=16484620 remote_idx=11531275
+2024-03-19T08:10:11.016Z DEBUG boringtun::noise: New session session=16484620 index=64393
+2024-03-19T08:10:11.016Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:10:22.816Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:10:25.941Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:10:25.944Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:10:26.016Z DEBUG boringtun::noise: Received handshake_response local_idx=16484621 remote_idx=11531276
+2024-03-19T08:10:26.020Z DEBUG boringtun::noise: New session session=16484621 index=64393
+2024-03-19T08:10:26.021Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:10:46.863Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:10:55.613Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:10:55.616Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:10:55.690Z DEBUG boringtun::noise: Received handshake_response local_idx=16484622 remote_idx=11531277
+2024-03-19T08:10:55.694Z DEBUG boringtun::noise: New session session=16484622 index=64393
+2024-03-19T08:10:55.694Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:11:10.613Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:11:10.616Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:11:10.690Z DEBUG boringtun::noise: Received handshake_response local_idx=16484623 remote_idx=11531278
+2024-03-19T08:11:10.694Z DEBUG boringtun::noise: New session session=16484623 index=64393
+2024-03-19T08:11:10.694Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:11:10.926Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:11:25.926Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:11:25.928Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:11:26.001Z DEBUG boringtun::noise: Received handshake_response local_idx=16484624 remote_idx=11531279
+2024-03-19T08:11:26.005Z DEBUG boringtun::noise: New session session=16484624 index=64393
+2024-03-19T08:11:26.005Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:11:34.988Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:11:53.426Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:11:53.428Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:11:53.491Z DEBUG boringtun::noise: Received handshake_response local_idx=16484625 remote_idx=11531280
+2024-03-19T08:11:53.493Z DEBUG boringtun::noise: New session session=16484625 index=64393
+2024-03-19T08:11:53.494Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:11:59.051Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:12:08.426Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:12:08.431Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:12:08.498Z DEBUG boringtun::noise: Received handshake_response local_idx=16484626 remote_idx=11531281
+2024-03-19T08:12:08.501Z DEBUG boringtun::noise: New session session=16484626 index=64393
+2024-03-19T08:12:08.501Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:12:23.113Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:12:23.738Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:12:23.741Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:12:23.805Z DEBUG boringtun::noise: Received handshake_response local_idx=16484627 remote_idx=11531282
+2024-03-19T08:12:23.809Z DEBUG boringtun::noise: New session session=16484627 index=64393
+2024-03-19T08:12:23.809Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:12:47.144Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:12:53.707Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:12:53.710Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:12:53.775Z DEBUG boringtun::noise: Received handshake_response local_idx=16484628 remote_idx=11531283
+2024-03-19T08:12:53.779Z DEBUG boringtun::noise: New session session=16484628 index=64393
+2024-03-19T08:12:53.779Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:13:08.738Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:13:08.740Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:13:08.809Z DEBUG boringtun::noise: Received handshake_response local_idx=16484629 remote_idx=11531284
+2024-03-19T08:13:08.812Z DEBUG boringtun::noise: New session session=16484629 index=64393
+2024-03-19T08:13:08.812Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:13:11.238Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:13:23.738Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:13:23.740Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:13:23.812Z DEBUG boringtun::noise: Received handshake_response local_idx=16484630 remote_idx=11531285
+2024-03-19T08:13:23.815Z DEBUG boringtun::noise: New session session=16484630 index=64393
+2024-03-19T08:13:23.815Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:13:35.301Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:13:39.051Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:13:39.053Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:13:39.129Z DEBUG boringtun::noise: Received handshake_response local_idx=16484631 remote_idx=11531286
+2024-03-19T08:13:39.133Z DEBUG boringtun::noise: New session session=16484631 index=64393
+2024-03-19T08:13:39.133Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:13:54.051Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:13:54.054Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:13:54.121Z DEBUG boringtun::noise: Received handshake_response local_idx=16484632 remote_idx=11531287
+2024-03-19T08:13:54.125Z DEBUG boringtun::noise: New session session=16484632 index=64393
+2024-03-19T08:13:54.126Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:13:59.364Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:14:09.051Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:14:09.053Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:14:09.136Z DEBUG boringtun::noise: Received handshake_response local_idx=16484633 remote_idx=11531288
+2024-03-19T08:14:09.140Z DEBUG boringtun::noise: New session session=16484633 index=64393
+2024-03-19T08:14:09.140Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:14:23.426Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:14:24.364Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:14:24.370Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:14:24.440Z DEBUG boringtun::noise: Received handshake_response local_idx=16484634 remote_idx=11531289
+2024-03-19T08:14:24.443Z DEBUG boringtun::noise: New session session=16484634 index=64393
+2024-03-19T08:14:24.443Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:14:39.676Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:14:39.679Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:14:39.761Z DEBUG boringtun::noise: Received handshake_response local_idx=16484635 remote_idx=11531290
+2024-03-19T08:14:39.765Z DEBUG boringtun::noise: New session session=16484635 index=64393
+2024-03-19T08:14:39.765Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:14:47.488Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:14:54.676Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:14:54.678Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:14:54.769Z DEBUG boringtun::noise: Received handshake_response local_idx=16484636 remote_idx=11531291
+2024-03-19T08:14:54.772Z DEBUG boringtun::noise: New session session=16484636 index=64393
+2024-03-19T08:14:54.772Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:15:09.988Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:15:09.991Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:15:10.052Z DEBUG boringtun::noise: Received handshake_response local_idx=16484637 remote_idx=11531292
+2024-03-19T08:15:10.056Z DEBUG boringtun::noise: New session session=16484637 index=64393
+2024-03-19T08:15:10.056Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:15:11.551Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:15:25.301Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:15:25.305Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:15:25.367Z DEBUG boringtun::noise: Received handshake_response local_idx=16484638 remote_idx=11531293
+2024-03-19T08:15:25.371Z DEBUG boringtun::noise: New session session=16484638 index=64393
+2024-03-19T08:15:25.371Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:15:35.613Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:15:40.613Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:15:40.615Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:15:40.690Z DEBUG boringtun::noise: Received handshake_response local_idx=16484639 remote_idx=11531294
+2024-03-19T08:15:40.693Z DEBUG boringtun::noise: New session session=16484639 index=64393
+2024-03-19T08:15:40.693Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:15:55.906Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:15:55.908Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:15:55.999Z DEBUG boringtun::noise: Received handshake_response local_idx=16484640 remote_idx=11531295
+2024-03-19T08:15:56.002Z DEBUG boringtun::noise: New session session=16484640 index=64393
+2024-03-19T08:15:56.002Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:15:59.656Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:16:18.406Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:16:18.409Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:16:18.486Z DEBUG boringtun::noise: Received handshake_response local_idx=16484641 remote_idx=11531296
+2024-03-19T08:16:18.490Z DEBUG boringtun::noise: New session session=16484641 index=64393
+2024-03-19T08:16:18.490Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:16:23.719Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:16:33.719Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:16:33.720Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:16:33.797Z DEBUG boringtun::noise: Received handshake_response local_idx=16484642 remote_idx=11531297
+2024-03-19T08:16:33.799Z DEBUG boringtun::noise: New session session=16484642 index=64393
+2024-03-19T08:16:33.799Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:16:47.781Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:16:48.719Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:16:48.721Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:16:48.805Z DEBUG boringtun::noise: Received handshake_response local_idx=16484643 remote_idx=11531298
+2024-03-19T08:16:48.809Z DEBUG boringtun::noise: New session session=16484643 index=64393
+2024-03-19T08:16:48.809Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:17:03.719Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:17:03.720Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:17:03.805Z DEBUG boringtun::noise: Received handshake_response local_idx=16484644 remote_idx=11531299
+2024-03-19T08:17:03.808Z DEBUG boringtun::noise: New session session=16484644 index=64393
+2024-03-19T08:17:03.808Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:17:11.844Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:17:18.719Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:17:18.720Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:17:18.805Z DEBUG boringtun::noise: Received handshake_response local_idx=16484645 remote_idx=11531300
+2024-03-19T08:17:18.808Z DEBUG boringtun::noise: New session session=16484645 index=64393
+2024-03-19T08:17:18.808Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:17:34.031Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:17:34.033Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:17:34.117Z DEBUG boringtun::noise: Received handshake_response local_idx=16484646 remote_idx=11531301
+2024-03-19T08:17:34.121Z DEBUG boringtun::noise: New session session=16484646 index=64393
+2024-03-19T08:17:34.121Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:17:35.906Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:17:49.344Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:17:49.347Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:17:54.656Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:17:54.659Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:17:54.731Z DEBUG boringtun::noise: Received handshake_response local_idx=16484648 remote_idx=11531303
+2024-03-19T08:17:54.735Z DEBUG boringtun::noise: New session session=16484648 index=64393
+2024-03-19T08:17:54.735Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:17:59.969Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:18:09.969Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:18:09.971Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:18:10.037Z DEBUG boringtun::noise: Received handshake_response local_idx=16484649 remote_idx=11531304
+2024-03-19T08:18:10.041Z DEBUG boringtun::noise: New session session=16484649 index=64393
+2024-03-19T08:18:10.041Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:18:24.015Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:18:25.265Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:18:25.268Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:18:25.345Z DEBUG boringtun::noise: Received handshake_response local_idx=16484650 remote_idx=11531305
+2024-03-19T08:18:25.349Z DEBUG boringtun::noise: New session session=16484650 index=64393
+2024-03-19T08:18:25.349Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:18:40.281Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:18:40.284Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:18:40.360Z DEBUG boringtun::noise: Received handshake_response local_idx=16484651 remote_idx=11531306
+2024-03-19T08:18:40.364Z DEBUG boringtun::noise: New session session=16484651 index=64393
+2024-03-19T08:18:40.364Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:18:40.906Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484639 index=64393
+2024-03-19T08:18:48.094Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:18:55.281Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:18:55.284Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:18:55.368Z DEBUG boringtun::noise: Received handshake_response local_idx=16484652 remote_idx=11531307
+2024-03-19T08:18:55.372Z DEBUG boringtun::noise: New session session=16484652 index=64393
+2024-03-19T08:18:55.372Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:19:12.175Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:19:36.387Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:19:56.533Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:19:56.535Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:19:56.594Z DEBUG boringtun::noise: Received handshake_response local_idx=16484653 remote_idx=11531308
+2024-03-19T08:19:56.598Z DEBUG boringtun::noise: New session session=16484653 index=64393
+2024-03-19T08:19:56.598Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:20:00.437Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:20:24.738Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:20:27.137Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:20:27.139Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:20:27.210Z DEBUG boringtun::noise: Received handshake_response local_idx=16484654 remote_idx=11531309
+2024-03-19T08:20:27.215Z DEBUG boringtun::noise: New session session=16484654 index=64393
+2024-03-19T08:20:27.215Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:20:48.794Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:20:54.805Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484648 index=64393
+2024-03-19T08:21:10.172Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484649 index=64393
+2024-03-19T08:21:12.872Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:21:25.537Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484650 index=64393
+2024-03-19T08:21:37.124Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:21:40.560Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484651 index=64393
+2024-03-19T08:21:55.473Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484652 index=64393
+2024-03-19T08:22:01.389Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:22:11.986Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:22:11.988Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:22:12.054Z DEBUG boringtun::noise: Received handshake_response local_idx=16484655 remote_idx=11531310
+2024-03-19T08:22:12.057Z DEBUG boringtun::noise: New session session=16484655 index=64393
+2024-03-19T08:22:12.057Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:22:25.434Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:22:49.468Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:22:56.763Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484653 index=64393
+2024-03-19T08:23:13.723Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:23:27.157Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484654 index=64393
+2024-03-19T08:23:37.725Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:24:01.761Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:24:12.286Z DEBUG boringtun::noise::timers: HANDSHAKE(REKEY_AFTER_TIME (on send))
+2024-03-19T08:24:12.289Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:24:12.359Z DEBUG boringtun::noise: Received handshake_response local_idx=16484656 remote_idx=11531311
+2024-03-19T08:24:12.363Z DEBUG boringtun::noise: New session session=16484656 index=64393
+2024-03-19T08:24:12.363Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:24:26.026Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:24:42.146Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:24:42.148Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:24:42.240Z DEBUG boringtun::noise: Received handshake_response local_idx=16484657 remote_idx=11531312
+2024-03-19T08:24:42.245Z DEBUG boringtun::noise: New session session=16484657 index=64393
+2024-03-19T08:24:42.245Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:24:50.055Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:25:12.118Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484655 index=64393
+2024-03-19T08:25:14.217Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:25:38.274Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:26:02.326Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:26:07.605Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:26:07.608Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:26:07.717Z DEBUG boringtun::noise: Received handshake_response local_idx=16484658 remote_idx=11531313
+2024-03-19T08:26:07.722Z DEBUG boringtun::noise: New session session=16484658 index=64393
+2024-03-19T08:26:07.722Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:26:26.397Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:26:27.607Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:26:27.610Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:26:27.679Z DEBUG boringtun::noise: Received handshake_response local_idx=16484659 remote_idx=11531314
+2024-03-19T08:26:27.683Z DEBUG boringtun::noise: New session session=16484659 index=64393
+2024-03-19T08:26:27.683Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:26:42.911Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:26:42.913Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:26:42.989Z DEBUG boringtun::noise: Received handshake_response local_idx=16484660 remote_idx=11531315
+2024-03-19T08:26:42.993Z DEBUG boringtun::noise: New session session=16484660 index=64393
+2024-03-19T08:26:42.993Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:26:50.705Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:26:57.932Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:26:57.934Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:26:58.007Z DEBUG boringtun::noise: Received handshake_response local_idx=16484661 remote_idx=11531316
+2024-03-19T08:26:58.011Z DEBUG boringtun::noise: New session session=16484661 index=64393
+2024-03-19T08:26:58.011Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:27:12.521Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484656 index=64393
+2024-03-19T08:27:14.939Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:27:39.150Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:27:42.174Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484657 index=64393
+2024-03-19T08:28:03.442Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:28:27.623Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:28:51.798Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:28:57.940Z DEBUG boringtun::noise::timers: HANDSHAKE(REKEY_AFTER_TIME (on send))
+2024-03-19T08:28:57.943Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:28:58.010Z DEBUG boringtun::noise: Received handshake_response local_idx=16484662 remote_idx=11531317
+2024-03-19T08:28:58.015Z DEBUG boringtun::noise: New session session=16484662 index=64393
+2024-03-19T08:28:58.016Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:29:07.741Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484658 index=64393
+2024-03-19T08:29:15.879Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:29:27.796Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484659 index=64393
+2024-03-19T08:29:40.132Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:29:43.132Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484660 index=64393
+2024-03-19T08:29:58.205Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484661 index=64393
+2024-03-19T08:30:04.251Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:30:28.306Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:30:52.433Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:30:58.143Z DEBUG boringtun::noise::timers: HANDSHAKE(REKEY_AFTER_TIME (on send))
+2024-03-19T08:30:58.146Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:30:58.228Z DEBUG boringtun::noise: Received handshake_response local_idx=16484663 remote_idx=11531318
+2024-03-19T08:30:58.231Z DEBUG boringtun::noise: New session session=16484663 index=64393
+2024-03-19T08:30:58.232Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:31:16.537Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:31:40.630Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:31:58.192Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484662 index=64393
+2024-03-19T08:32:04.847Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:32:29.034Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:32:53.111Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:32:58.224Z DEBUG boringtun::noise::timers: HANDSHAKE(REKEY_AFTER_TIME (on send))
+2024-03-19T08:32:58.227Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:32:58.313Z DEBUG boringtun::noise: Received handshake_response local_idx=16484664 remote_idx=11531319
+2024-03-19T08:32:58.317Z DEBUG boringtun::noise: New session session=16484664 index=64393
+2024-03-19T08:32:58.317Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:33:17.170Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:33:37.022Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:33:37.024Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:33:37.105Z DEBUG boringtun::noise: Received handshake_response local_idx=16484665 remote_idx=11531320
+2024-03-19T08:33:37.109Z DEBUG boringtun::noise: New session session=16484665 index=64393
+2024-03-19T08:33:37.109Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:33:41.358Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:33:58.338Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484663 index=64393
+2024-03-19T08:34:05.563Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:34:29.784Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:34:53.870Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:35:17.948Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:35:37.104Z DEBUG boringtun::noise::timers: HANDSHAKE(REKEY_AFTER_TIME (on send))
+2024-03-19T08:35:37.106Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:35:37.233Z DEBUG boringtun::noise: Received handshake_response local_idx=16484666 remote_idx=11531321
+2024-03-19T08:35:37.237Z DEBUG boringtun::noise: New session session=16484666 index=64393
+2024-03-19T08:35:37.237Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:35:42.223Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:35:58.268Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484664 index=64393
+2024-03-19T08:36:06.296Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:36:30.513Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:36:37.174Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484665 index=64393
+2024-03-19T08:36:54.720Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:37:18.737Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:37:37.184Z DEBUG boringtun::noise::timers: HANDSHAKE(REKEY_AFTER_TIME (on send))
+2024-03-19T08:37:37.187Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:37:37.252Z DEBUG boringtun::noise: Received handshake_response local_idx=16484667 remote_idx=11531322
+2024-03-19T08:37:37.255Z DEBUG boringtun::noise: New session session=16484667 index=64393
+2024-03-19T08:37:37.255Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:37:42.883Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:38:07.033Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:38:31.229Z DEBUG boringtun::noise::timers: KEEPALIVE(PERSISTENT_KEEPALIVE)
+2024-03-19T08:38:37.161Z DEBUG boringtun::noise::timers: SESSION_EXPIRED(REJECT_AFTER_TIME) session=16484666 index=64393
+2024-03-19T08:38:42.858Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:38:42.861Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:38:47.974Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:38:47.978Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:38:53.088Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:38:53.091Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:38:58.188Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:38:58.191Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:39:03.352Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:39:03.354Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:39:08.516Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:39:08.518Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:39:13.740Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:39:13.742Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:39:18.872Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:39:18.875Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:39:24.162Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:39:24.168Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:39:29.570Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:39:29.599Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:39:34.787Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:39:34.790Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:39:39.972Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:39:39.974Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:39:45.093Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:39:45.096Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:39:50.369Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:39:50.372Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:39:55.496Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:39:55.499Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:40:00.628Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:40:00.632Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:40:05.790Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:40:05.793Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:40:10.919Z  WARN boringtun::noise::timers: HANDSHAKE(REKEY_TIMEOUT)
+2024-03-19T08:40:10.921Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:40:13.019Z ERROR boringtun::noise::timers: CONNECTION_EXPIRED(REKEY_ATTEMPT_TIME)
+2024-03-19T08:40:24.433Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:40:24.494Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:40:24.777Z DEBUG boringtun::noise: Received handshake_response local_idx=3044353 remote_idx=10717952
+2024-03-19T08:40:24.780Z DEBUG boringtun::noise: New session session=3044353 index=11892
+2024-03-19T08:40:24.780Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:40:40.102Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:40:40.105Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:41:05.816Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:41:10.341Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:41:10.442Z DEBUG boringtun::noise: Received handshake_response local_idx=12371457 remote_idx=5003776
+2024-03-19T08:41:10.446Z DEBUG boringtun::noise: New session session=12371457 index=48326
+2024-03-19T08:41:10.446Z DEBUG boringtun::noise: Sending keepalive
+2024-03-19T08:41:25.479Z  WARN boringtun::noise::timers: HANDSHAKE(KEEPALIVE + REKEY_TIMEOUT)
+2024-03-19T08:41:25.482Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:41:30.713Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:41:30.767Z DEBUG boringtun::noise: Sending handshake_initiation
+2024-03-19T08:41:30.803Z DEBUG boringtun::noise: Received handshake_response local_idx=4945921 remote_idx=10563328
+2024-03-19T08:41:30.807Z DEBUG boringtun::noise: New session session=4945921 index=19320
+2024-03-19T08:41:30.807Z DEBUG boringtun::noise: Sending keepalive

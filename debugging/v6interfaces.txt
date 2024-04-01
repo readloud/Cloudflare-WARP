@@ -1,0 +1,26 @@
+
+====
+==== Command { std: "netsh" "interface" "ipv6" "show" "interfaces", kill_on_drop: false }
+====
+
+stdout
+------
+
+Idx     Met         MTU          State                Name
+---  ----------  ----------  ------------  ---------------------------
+  1          75  4294967295  connected     Loopback Pseudo-Interface 1
+  8           5        1500  disconnected  Ethernet
+ 18          25        1500  disconnected  Wi-Fi
+  7          25        1500  disconnected  Local Area Connection* 1
+
+
+
+stderr
+------
+
+
+exit status
+-----------
+Exited with status code: 0
+
+

@@ -1,0 +1,35 @@
+
+====================================================================
+Tunnel Endpoint
+====================================================================
+
+unknown
+
+====================================================================
+DNS Resolution
+====================================================================
+
+Inside Tunnel
+-------------
+Error resolving connectivity.cloudflareclient.com: Os { code: 11001, kind: Uncategorized, message: "No such host is known." }
+
+====================================================================
+Trace Result
+====================================================================
+
+Inside Tunnel
+-------------
+Error Tracing 'connectivity.cloudflareclient.com' via 162.159.138.65:
+error sending request for url (https://connectivity.cloudflareclient.com/cdn-cgi/trace): error trying to connect: tcp connect error: A socket operation was attempted to an unreachable network. (os error 10051)
+
+
+
+Outside Tunnel
+--------------
+Error Tracing 'engage.cloudflareclient.com' via 162.159.36.1:
+error sending request for url (https://engage.cloudflareclient.com/cdn-cgi/trace): error trying to connect: tcp connect error: A socket operation was attempted to an unreachable network. (os error 10051)
+
+Error Tracing 'engage.cloudflareclient.com' via 2606:4700:4700::1111:
+error sending request for url (https://engage.cloudflareclient.com/cdn-cgi/trace): error trying to connect: tcp connect error: A socket operation was attempted to an unreachable network. (os error 10051)
+
+

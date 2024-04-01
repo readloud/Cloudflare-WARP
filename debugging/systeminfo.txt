@@ -1,0 +1,63 @@
+
+====
+==== Command { std: "systeminfo" "/FO" "LIST", kill_on_drop: false }
+====
+
+stdout
+------
+
+Host Name:                 HBCDPX64
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.18363 N/A Build 18363
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          HBCD PX 64
+Registered Organization:   Oprekin
+Product ID:                00330-80000-00000-AA988
+Original Install Date:     3/16/2024, 9:26:01 AM
+System Boot Time:          3/19/2024, 5:37:54 PM
+System Manufacturer:       ASUSTeK Computer INC.
+System Model:              1215P
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 28 Stepping 10 GenuineIntel ~1500 Mhz
+BIOS Version:              American Megatrends Inc. 0203   , 9/1/2010
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-08:00) Pacific Time (US & Canada)
+Total Physical Memory:     2,038 MB
+Available Physical Memory: 926 MB
+Virtual Memory: Max Size:  3,190 MB
+Virtual Memory: Available: 2,133 MB
+Virtual Memory: In Use:    1,057 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\HBCDPX64
+Hotfix(s):                 1 Hotfix(s) Installed.
+                           [01]: KB4524570
+Network Card(s):           2 NIC(s) Installed.
+                           [01]: Qualcomm Atheros AR9285 Wireless Network Adapter
+                                 Connection Name: Wi-Fi
+                                 Status:          Media disconnected
+                           [02]: Qualcomm Atheros AR8152 PCI-E Fast Ethernet Controller (NDIS 6.30)
+                                 Connection Name: Ethernet
+                                 Status:          Media disconnected
+Hyper-V Requirements:      VM Monitor Mode Extensions: No
+                           Virtualization Enabled In Firmware: No
+                           Second Level Address Translation: No
+                           Data Execution Prevention Available: Yes
+
+
+stderr
+------
+
+
+exit status
+-----------
+Exited with status code: 0
+
+

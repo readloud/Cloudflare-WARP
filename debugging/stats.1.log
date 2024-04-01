@@ -1,0 +1,1 @@
+Failed to open file 'C:\ProgramData\Cloudflare\cfwarp_service_stats.txt.1': Os { code: 2, kind: NotFound, message: "The system cannot find the file specified." }

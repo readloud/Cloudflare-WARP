@@ -1,0 +1,2 @@
+warp-svc. DNS resolution:
+Error resolving warp-svc.: Os { code: 11001, kind: Uncategorized, message: "No such host is known." }

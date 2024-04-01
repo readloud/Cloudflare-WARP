@@ -1,0 +1,220 @@
+2024-03-19T11:53:22.573Z DEBUG task-dump: Dumping task state
+2024-03-19T11:53:23.101Z DEBUG task-dump: Runtime metrics: Some(
+    RuntimeMetrics {
+        workers_count: 4,
+        total_park_count: 880517,
+        max_park_count: 261794,
+        min_park_count: 148669,
+        mean_poll_duration: 5.616768ms,
+        mean_poll_duration_worker_min: 449.239µs,
+        mean_poll_duration_worker_max: 18.820601ms,
+        poll_count_histogram: [],
+        total_noop_count: 727176,
+        max_noop_count: 233224,
+        min_noop_count: 107086,
+        total_steal_count: 7330,
+        max_steal_count: 2012,
+        min_steal_count: 1633,
+        total_steal_operations: 7075,
+        max_steal_operations: 1950,
+        min_steal_operations: 0,
+        num_remote_schedules: 70835,
+        total_local_schedule_count: 187379,
+        max_local_schedule_count: 52007,
+        min_local_schedule_count: 34753,
+        total_overflow_count: 0,
+        max_overflow_count: 0,
+        min_overflow_count: 0,
+        total_polls_count: 248456,
+        max_polls_count: 68925,
+        min_polls_count: 45539,
+        total_busy_duration: 203.417281s,
+        max_busy_duration: 57.507487s,
+        min_busy_duration: 37.3382405s,
+        injection_queue_depth: 0,
+        total_local_queue_depth: 0,
+        max_local_queue_depth: 0,
+        min_local_queue_depth: 0,
+        elapsed: 17468.5033622s,
+        budget_forced_yield_count: 114,
+        io_driver_ready_count: 175343,
+    },
+)
+2024-03-19T11:53:34.874Z DEBUG task-dump: ╼ warp::warp_service::WarpService::start::{{closure}} at warp\src\warp_service.rs:353:5
+  └╼ warp::warp_service::WarpService::main_loop<core::pin::Pin<&mut warp::warp_service::WarpService::start::{{closure}}::{{closure}}::{{closure}}>, firewall::FirewallEngine::engine<firewall::win::Firewall>::{{closure}}>::{{closure}} at warp\src\warp_service.rs:529:5
+     └╼ warp::warp_service::WarpService::main_loop<core::pin::Pin<&mut warp::warp_service::WarpService::start::{{closure}}::{{closure}}::{{closure}}>, firewall::FirewallEngine::engine<firewall::win::Firewall>::{{closure}}>::{{closure}}::{{closure}}::{{closure}} at warp\src\warp_service.rs:791:45
+╼ warp::warp_service::notify_ipc_clients_on_registration_change::{{closure}} at warp\src\warp_service.rs:2151:1
+╼ warp::warp_service::network_change::drive_network_connectivity_changes::{{closure}} at warp\src\warp_service\network_change.rs:122:1
+  └┈ [POLLING]
+╼ warp::warp_service::WarpService::main_loop<core::pin::Pin<&mut warp::warp_service::WarpService::start::{{closure}}::{{closure}}::{{closure}}>, firewall::FirewallEngine::engine<firewall::win::Firewall>::{{closure}}>::{{closure}}::{{closure}}::{{closure}} at warp\src\warp_service.rs:556:13
+  └╼ firewall::FirewallEngine::engine<firewall::win::Firewall>::{{closure}} at firewall\src\lib.rs:683:5
+╼ warp::notification::notifications_loop::{{closure}} at warp\src\notification\mod.rs:101:1
+  └╼ warp::notification::connect::{{closure}} at warp\src\notification\mod.rs:128:1
+╼ warp_settings::manager::WarpSettingsManager::new::{{closure}} at warp-settings\src\manager.rs:74:22
+  └╼ warp_settings::manager::LayerManager::run::{{closure}} at warp-settings\src\manager.rs:780:5
+╼ warp::network_diagnostics::collect_network_diagnostics::{{closure}} at warp\src\network_diagnostics.rs:29:1
+  └╼ warp::network_diagnostics::collect_network_diagnostics_loop::{{closure}} at warp\src\network_diagnostics.rs:52:1
+╼ warp::warp_service::periodic::structured_log_loop::{{closure}} at warp\src\warp_service\periodic.rs:12:1
+╼ warp::warp_service::ipc_loop::launch_ipc_loop::{{closure}} at warp\src\warp_service\ipc_loop.rs:34:1
+╼ warp::root_ca::manage_root_ca::{{closure}} at warp\src\root_ca.rs:7:1
+
+2024-03-19T11:53:38.175Z DEBUG task-dump: Dumping task state
+2024-03-19T11:53:38.187Z DEBUG task-dump: Runtime metrics: Some(
+    RuntimeMetrics {
+        workers_count: 4,
+        total_park_count: 1,
+        max_park_count: 1,
+        min_park_count: 0,
+        mean_poll_duration: 0ns,
+        mean_poll_duration_worker_min: 0ns,
+        mean_poll_duration_worker_max: 0ns,
+        poll_count_histogram: [],
+        total_noop_count: 1,
+        max_noop_count: 1,
+        min_noop_count: 0,
+        total_steal_count: 0,
+        max_steal_count: 0,
+        min_steal_count: 0,
+        total_steal_operations: 0,
+        max_steal_operations: 0,
+        min_steal_operations: 0,
+        num_remote_schedules: 0,
+        total_local_schedule_count: 0,
+        max_local_schedule_count: 0,
+        min_local_schedule_count: 0,
+        total_overflow_count: 0,
+        max_overflow_count: 0,
+        min_overflow_count: 0,
+        total_polls_count: 0,
+        max_polls_count: 0,
+        min_polls_count: 0,
+        total_busy_duration: 0ns,
+        max_busy_duration: 0ns,
+        min_busy_duration: 0ns,
+        injection_queue_depth: 0,
+        total_local_queue_depth: 0,
+        max_local_queue_depth: 0,
+        min_local_queue_depth: 0,
+        elapsed: 17.1345297s,
+        budget_forced_yield_count: 0,
+        io_driver_ready_count: 0,
+    },
+)
+2024-03-19T11:53:38.509Z DEBUG task-dump: ╼ warp::warp_service::WarpService::start::{{closure}} at warp\src\warp_service.rs:353:5
+  └╼ warp::warp_service::WarpService::main_loop<core::pin::Pin<&mut warp::warp_service::WarpService::start::{{closure}}::{{closure}}::{{closure}}>, firewall::FirewallEngine::engine<firewall::win::Firewall>::{{closure}}>::{{closure}} at warp\src\warp_service.rs:529:5
+     └╼ warp::warp_service::WarpService::main_loop<core::pin::Pin<&mut warp::warp_service::WarpService::start::{{closure}}::{{closure}}::{{closure}}>, firewall::FirewallEngine::engine<firewall::win::Firewall>::{{closure}}>::{{closure}}::{{closure}}::{{closure}} at warp\src\warp_service.rs:791:45
+╼ warp::warp_service::notify_ipc_clients_on_registration_change::{{closure}} at warp\src\warp_service.rs:2151:1
+╼ warp::warp_service::network_change::drive_network_connectivity_changes::{{closure}} at warp\src\warp_service\network_change.rs:122:1
+  └┈ [POLLING]
+╼ warp::warp_service::WarpService::main_loop<core::pin::Pin<&mut warp::warp_service::WarpService::start::{{closure}}::{{closure}}::{{closure}}>, firewall::FirewallEngine::engine<firewall::win::Firewall>::{{closure}}>::{{closure}}::{{closure}}::{{closure}} at warp\src\warp_service.rs:556:13
+  └╼ firewall::FirewallEngine::engine<firewall::win::Firewall>::{{closure}} at firewall\src\lib.rs:683:5
+╼ warp::notification::notifications_loop::{{closure}} at warp\src\notification\mod.rs:101:1
+  └╼ warp::notification::connect::{{closure}} at warp\src\notification\mod.rs:128:1
+╼ warp_settings::manager::WarpSettingsManager::new::{{closure}} at warp-settings\src\manager.rs:74:22
+  └╼ warp_settings::manager::LayerManager::run::{{closure}} at warp-settings\src\manager.rs:780:5
+╼ warp::network_diagnostics::collect_network_diagnostics::{{closure}} at warp\src\network_diagnostics.rs:29:1
+  └╼ warp::network_diagnostics::collect_network_diagnostics_loop::{{closure}} at warp\src\network_diagnostics.rs:52:1
+╼ warp::warp_service::periodic::structured_log_loop::{{closure}} at warp\src\warp_service\periodic.rs:12:1
+╼ warp::warp_service::ipc_loop::launch_ipc_loop::{{closure}} at warp\src\warp_service\ipc_loop.rs:34:1
+╼ warp::root_ca::manage_root_ca::{{closure}} at warp\src\root_ca.rs:7:1
+
+2024-03-19T11:59:42.415Z DEBUG task-dump: Dumping task state
+2024-03-19T11:59:42.551Z DEBUG task-dump: Runtime metrics: Some(
+    RuntimeMetrics {
+        workers_count: 4,
+        total_park_count: 15,
+        max_park_count: 6,
+        min_park_count: 1,
+        mean_poll_duration: 335.44749ms,
+        mean_poll_duration_worker_min: 49.27374ms,
+        mean_poll_duration_worker_max: 445.683597ms,
+        poll_count_histogram: [],
+        total_noop_count: 9,
+        max_noop_count: 4,
+        min_noop_count: 0,
+        total_steal_count: 0,
+        max_steal_count: 0,
+        min_steal_count: 0,
+        total_steal_operations: 0,
+        max_steal_operations: 0,
+        min_steal_operations: 0,
+        num_remote_schedules: 9,
+        total_local_schedule_count: 0,
+        max_local_schedule_count: 0,
+        min_local_schedule_count: 0,
+        total_overflow_count: 0,
+        max_overflow_count: 0,
+        min_overflow_count: 0,
+        total_polls_count: 6,
+        max_polls_count: 4,
+        min_polls_count: 0,
+        total_busy_duration: 6.1815778s,
+        max_busy_duration: 5.5462956s,
+        min_busy_duration: 62.2µs,
+        injection_queue_depth: 0,
+        total_local_queue_depth: 0,
+        max_local_queue_depth: 0,
+        min_local_queue_depth: 0,
+        elapsed: 32.7660217s,
+        budget_forced_yield_count: 0,
+        io_driver_ready_count: 0,
+    },
+)
+2024-03-19T11:59:42.999Z DEBUG task-dump: ╼ warp_settings::manager::WarpSettingsManager::new::{{closure}} at warp-settings\src\manager.rs:74:22
+  └╼ warp_settings::manager::LayerManager::run::{{closure}} at warp-settings\src\manager.rs:780:5
+╼ warp::warp_service::WarpService::main_loop<core::pin::Pin<&mut warp::warp_service::WarpService::start::{{closure}}::{{closure}}::{{closure}}>, firewall::FirewallEngine::engine<firewall::win::Firewall>::{{closure}}>::{{closure}}::{{closure}}::{{closure}} at warp\src\warp_service.rs:556:13
+  └╼ firewall::FirewallEngine::engine<firewall::win::Firewall>::{{closure}} at firewall\src\lib.rs:683:5
+╼ warp::warp_service::WarpService::start::{{closure}} at warp\src\warp_service.rs:353:5
+  └╼ warp::warp_service::WarpService::main_loop<core::pin::Pin<&mut warp::warp_service::WarpService::start::{{closure}}::{{closure}}::{{closure}}>, firewall::FirewallEngine::engine<firewall::win::Firewall>::{{closure}}>::{{closure}} at warp\src\warp_service.rs:529:5
+╼ warp::notification::notifications_loop::{{closure}} at warp\src\notification\mod.rs:101:1
+  └╼ warp::notification::connect::{{closure}} at warp\src\notification\mod.rs:128:1
+
+2024-03-19T11:59:44.014Z DEBUG task-dump: Dumping task state
+2024-03-19T11:59:44.015Z DEBUG task-dump: Runtime metrics: Some(
+    RuntimeMetrics {
+        workers_count: 4,
+        total_park_count: 3,
+        max_park_count: 1,
+        min_park_count: 0,
+        mean_poll_duration: 120.945543ms,
+        mean_poll_duration_worker_min: 40.919537ms,
+        mean_poll_duration_worker_max: 280.997557ms,
+        poll_count_histogram: [],
+        total_noop_count: 1,
+        max_noop_count: 1,
+        min_noop_count: 0,
+        total_steal_count: 0,
+        max_steal_count: 0,
+        min_steal_count: 0,
+        total_steal_operations: 0,
+        max_steal_operations: 0,
+        min_steal_operations: 0,
+        num_remote_schedules: 3,
+        total_local_schedule_count: 0,
+        max_local_schedule_count: 0,
+        min_local_schedule_count: 0,
+        total_overflow_count: 0,
+        max_overflow_count: 0,
+        min_overflow_count: 0,
+        total_polls_count: 3,
+        max_polls_count: 2,
+        min_polls_count: 0,
+        total_busy_duration: 1.1944975s,
+        max_busy_duration: 1.183884s,
+        min_busy_duration: 0ns,
+        injection_queue_depth: 0,
+        total_local_queue_depth: 0,
+        max_local_queue_depth: 0,
+        min_local_queue_depth: 0,
+        elapsed: 1.609616s,
+        budget_forced_yield_count: 0,
+        io_driver_ready_count: 0,
+    },
+)
+2024-03-19T11:59:44.015Z DEBUG task-dump: ╼ warp_settings::manager::WarpSettingsManager::new::{{closure}} at warp-settings\src\manager.rs:74:22
+  └╼ warp_settings::manager::LayerManager::run::{{closure}} at warp-settings\src\manager.rs:780:5
+╼ warp::warp_service::WarpService::main_loop<core::pin::Pin<&mut warp::warp_service::WarpService::start::{{closure}}::{{closure}}::{{closure}}>, firewall::FirewallEngine::engine<firewall::win::Firewall>::{{closure}}>::{{closure}}::{{closure}}::{{closure}} at warp\src\warp_service.rs:556:13
+  └╼ firewall::FirewallEngine::engine<firewall::win::Firewall>::{{closure}} at firewall\src\lib.rs:683:5
+╼ warp::warp_service::WarpService::start::{{closure}} at warp\src\warp_service.rs:353:5
+  └┈ [POLLING]
+
