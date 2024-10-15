@@ -1,11 +1,8 @@
-Products
-1.1.1.1 (DNS Resolver)
-Other ways to use 1.1.1.1
-DNS in Google Sheets
-DNS in Google Sheets
-Create a function
-1.1.1.1 works directly inside Google Sheets. To get started, create a Google Function ↗ with the following code:
+# DNS in Google Sheets
 
+`Create a function`
+1.1.1.1 works directly inside Google Sheets. To get started, create a Google Function ↗ with the following code:
+```function
 function NSLookup(type, domain) {
 
   if (typeof type == 'undefined') {
@@ -64,19 +61,20 @@ function NSLookup(type, domain) {
 
   return outputString;
 }
+```
 
-Using 1.1.1.1
+## Using 1.1.1.1
 When you feed the function NSLookup a record type and a domain, you will get a DNS record value in the cell you called NSLookup.
-
 Supported DNS record types
 For example, typing:
 
-NSLookup(B1, B2)
+## NSLookup(B1, B2)
+![](https://github.com/readloud/Cloudflare-WARP/blob/main/google-sheet-function.B_K9dB4i_1c5KFn.webp)
 
 Or - depending on your regional settings - you may have to use this formula:
 
-NSLookup(B1; B2)
-
+## NSLookup(B1; B2)
+![](https://github.com/readloud/Cloudflare-WARP/blob/main/google-sheet-result.qjsyQyZU_pkils.webp)
 Google sheets function
 
 
