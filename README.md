@@ -41,7 +41,7 @@ For more information, refer to 1.1.1.1 for Families set up.
 
 [DNS over Tor](#DNS%20over%20Tor.md)
 
-## Cloudflare WARP - Debian
+## Cloudflare WARP - Debian [has been disable]
 The supported releases are:
 
     Bookworm (12)
