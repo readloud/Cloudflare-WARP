@@ -33,6 +33,14 @@ For more information, refer to 1.1.1.1 for Families set up.
 |1.1.1.3|2606:4700:4700::1113|
 |1.0.0.3|2606:4700:4700::1003|
 
+[DNS Resolver Setup](#DNS%20Resolver%20Setup.md)
+
+[DNS in Google Sheets](#DNS%20in%20Google%20Sheets.md)
+
+[DNS over Discord](#DNS%20over%20Discord.md)
+
+[DNS over Tor](#DNS%20over%20Tor.md)
+
 ## Cloudflare WARP - Debian
 The supported releases are:
 
